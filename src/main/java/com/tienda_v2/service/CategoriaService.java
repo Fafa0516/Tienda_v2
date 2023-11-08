@@ -9,7 +9,7 @@ public interface CategoriaService {
     public List<Categoria> getCategorias (boolean activo); //Va a devolver un array list de objetos categoria
     
     //Se obtiene una Categoria según el Id pasado por parámetro
-    public Categoria getCategoria();
+    public Categoria getCategoria(Categoria categoria);
     
     //Se actualiza una categoria o se inserta una nuieva...(Si no hay id es un insert)
     public void save(Categoria categoria);
