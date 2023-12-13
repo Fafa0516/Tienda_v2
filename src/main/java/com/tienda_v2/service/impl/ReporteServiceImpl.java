@@ -44,7 +44,7 @@ public class ReporteServiceImpl implements ReporteService{
         try {
             //Se asigna el tipo de página a generar...
             String estilo = tipo.equalsIgnoreCase("vPdf")?
-                    "inline; ":"attachment; ";
+                    "online; ":"attachment; ";
             
             //Se establece la ruta de los reportes
             String reportePath="reportes";
